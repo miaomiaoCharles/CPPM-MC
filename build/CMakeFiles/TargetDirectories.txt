@@ -1,0 +1,5 @@
+/root/lqc/co-location/build/CMakeFiles/edit_cache.dir
+/root/lqc/co-location/build/CMakeFiles/rebuild_cache.dir
+/root/lqc/co-location/build/src/CMakeFiles/programer.dir
+/root/lqc/co-location/build/src/CMakeFiles/edit_cache.dir
+/root/lqc/co-location/build/src/CMakeFiles/rebuild_cache.dir

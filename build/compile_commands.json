@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/root/lqc/co-location/build/src",
+  "command": "/usr/bin/c++  -I/root/lqc/co-location/include -I/root/lqc/co-location/include/framelib -I/root/lqc/co-location/include/algorithmlib -g -g -o CMakeFiles/programer.dir/main.cpp.o -c /root/lqc/co-location/src/main.cpp",
+  "file": "/root/lqc/co-location/src/main.cpp"
+},
+{
+  "directory": "/root/lqc/co-location/build/src",
+  "command": "/usr/bin/c++  -I/root/lqc/co-location/include -I/root/lqc/co-location/include/framelib -I/root/lqc/co-location/include/algorithmlib -g -g -o CMakeFiles/programer.dir/moec.cpp.o -c /root/lqc/co-location/src/moec.cpp",
+  "file": "/root/lqc/co-location/src/moec.cpp"
+},
+{
+  "directory": "/root/lqc/co-location/build/src",
+  "command": "/usr/bin/c++  -I/root/lqc/co-location/include -I/root/lqc/co-location/include/framelib -I/root/lqc/co-location/include/algorithmlib -g -g -o CMakeFiles/programer.dir/myAlgorithm.cpp.o -c /root/lqc/co-location/src/myAlgorithm.cpp",
+  "file": "/root/lqc/co-location/src/myAlgorithm.cpp"
+},
+{
+  "directory": "/root/lqc/co-location/build/src",
+  "command": "/usr/bin/c++  -I/root/lqc/co-location/include -I/root/lqc/co-location/include/framelib -I/root/lqc/co-location/include/algorithmlib -g -g -o CMakeFiles/programer.dir/myAlgorithm_link.cpp.o -c /root/lqc/co-location/src/myAlgorithm_link.cpp",
+  "file": "/root/lqc/co-location/src/myAlgorithm_link.cpp"
+},
+{
+  "directory": "/root/lqc/co-location/build/src",
+  "command": "/usr/bin/c++  -I/root/lqc/co-location/include -I/root/lqc/co-location/include/framelib -I/root/lqc/co-location/include/algorithmlib -g -g -o CMakeFiles/programer.dir/rowIns.cpp.o -c /root/lqc/co-location/src/rowIns.cpp",
+  "file": "/root/lqc/co-location/src/rowIns.cpp"
+},
+{
+  "directory": "/root/lqc/co-location/build/src",
+  "command": "/usr/bin/c++  -I/root/lqc/co-location/include -I/root/lqc/co-location/include/framelib -I/root/lqc/co-location/include/algorithmlib -g -g -o CMakeFiles/programer.dir/rowNode.cpp.o -c /root/lqc/co-location/src/rowNode.cpp",
+  "file": "/root/lqc/co-location/src/rowNode.cpp"
+},
+{
+  "directory": "/root/lqc/co-location/build/src",
+  "command": "/usr/bin/c++  -I/root/lqc/co-location/include -I/root/lqc/co-location/include/framelib -I/root/lqc/co-location/include/algorithmlib -g -g -o CMakeFiles/programer.dir/frame/graph.cpp.o -c /root/lqc/co-location/src/frame/graph.cpp",
+  "file": "/root/lqc/co-location/src/frame/graph.cpp"
+},
+{
+  "directory": "/root/lqc/co-location/build/src",
+  "command": "/usr/bin/c++  -I/root/lqc/co-location/include -I/root/lqc/co-location/include/framelib -I/root/lqc/co-location/include/algorithmlib -g -g -o CMakeFiles/programer.dir/frame/node.cpp.o -c /root/lqc/co-location/src/frame/node.cpp",
+  "file": "/root/lqc/co-location/src/frame/node.cpp"
+}
+]
