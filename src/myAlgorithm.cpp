@@ -167,6 +167,13 @@
 void MyAlgorithm::init()
 {
     vector<vector<Node *>> cliques = getCliques();
+    // for(int i = 0; i <cliques.size(); i++){
+    //     for(int j = 0; j <cliques[i].size(); j++){
+    //         cout <<cliques[i][j]->getName() << " ";
+    //     }
+    //     cout << endl;
+    // }
+    
     for (auto clique : cliques)
     {
         all_RowIns.push_back(RowIns(clique));
@@ -197,7 +204,6 @@ bool MyAlgorithm::check(string pattern){
 void MyAlgorithm::algorithm()
 {
     init();
-    unique_ptr<Time> t(new Time());
     //开始遍历每一行
     for (RowIns &row : all_RowIns)
     {   
@@ -221,7 +227,7 @@ void MyAlgorithm::algorithm()
         }
         // //针对父节点候选集开始判断第二个条件，如果找到的话就将实例相加
         if (ansSet.size() > 1)//至少都会有一个{0}
-        {                       
+        {   
             vector<int> ansVec; //为了方便从后往前遍历，将候选父节点放入vector中
             for (auto it = ansSet.begin(); it != ansSet.end(); it++)
             {
@@ -234,22 +240,19 @@ void MyAlgorithm::algorithm()
                 if(row|fatherp){
                     //找到了真正的父节点
                     row.add_father(*fatherp);
+                    if(row.getPattern() == "BC"){
+                        cout << row.printStr() << endl;
+                    }
                     break;
                 }
             }
         }
-        if(row.isPrevalent()) {
-            // cout << row.printStr() << endl;
+        if(row.isPrevalent()){
             ans.insert(row.getPattern());
         }
     }
-    // cout << "================" << endl;
-    // for(auto row: all_RowIns){
-    //     cout << row.printStr() << endl;
-    // }
-    
     for(auto a: ans){
         cout << a << endl;
     }
-    cout << "算法花费时间："  << t->getTime() << endl;
+    
 }

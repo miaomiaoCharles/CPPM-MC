@@ -3,10 +3,12 @@
 #include "data.hpp"
 map<char, int> Graph::_featureNum;
 double Graph::_PIPre = 0;
-Graph::Graph(double pi, int disPre, int maxLength, char *fileName) : _disPre(disPre), _maxLength(maxLength)
+int Graph::_disPre = 10;
+Graph::Graph(double pi, int disPre, int maxLength, char *fileName) : _maxLength(maxLength)
 {
     //以下是对参数进行判断，判断合法性
     _PIPre = pi;
+    _disPre = disPre;
     Data input;
     string fileStr = "";
     fileStr += fileName;
@@ -119,41 +121,55 @@ int Graph::loadFeatureNum(char c)
     return _featureNum[c];
 }
 
-vector<vector<Node *>> Graph::getMaximalCliques()
-{
-    vector<vector<Node *>> ans;
-    vector<string> ansStr;
-    for (Node &node : _nodes)
-    {
-        bool flag = false;
-        int maxSize = 0;
-        vector<Node *> cur;
-        cur.push_back(&node);
-        string str = "";
-        for (Node *neibor : node._neighbors)
-        {
-            if (isclique(cur, neibor))
-            {
-                cur.push_back(neibor);
-                str += neibor->getName();
-            }
-        }
-        for (int i = 0; i < ansStr.size(); i++)
-        {
-            if (ansStr[i].find(str) != ansStr[i].npos)
-            {
-                flag = true;
+bool check(vector<Node*> child, vector<Node*> father){
+    for(int i = 0; i < child.size(); i++){
+        int j = 0;
+        for(j = 0; j < father.size(); j++){
+            if(child[i] == father[j]){
                 break;
             }
         }
-        if (!flag)
+        if(j == father.size()) return false;
+    }
+    return true;
+}
+
+vector<vector<Node *>> Graph::getMaximalCliques()
+{
+    vector<vector<Node*>> ans;
+    for (Node &node : _nodes)
+    {
+        vector<vector<Node *>> cur;
+        for (Node *neibor : node._neighbors)
         {
-            ans.push_back(cur);
-            ansStr.push_back(str);
+            int j = 0;
+            for(j = 0; j < cur.size(); j++){
+                if(isclique(cur[j], neibor)){
+                    cur[j].push_back(neibor);
+                }
+            }
+            if(j == cur.size()){  //说明不属于任何一个极大团分支，新建一个分支
+                cur.push_back(vector<Node*>{neibor});
+                cur[cur.size()-1].push_back(&node);
+            }
+        }
+        for(auto c: cur){
+            sort(c.begin(), c.end());
+            bool flag = false;
+            for(auto v: ans){
+                if(check(c,v)){
+                    flag = true;
+                    break;
+                }
+            }
+            if(flag) continue;
+            ans.push_back(c);
         }
     }
     return ans;
 }
+
+
 
 void Graph::printAns(vector<vector<char>> ans)
 {
@@ -177,4 +193,54 @@ int Graph::getModel()
     {
         return 1; // edge模式返回1
     }
+}
+
+bool checkMOEC_condition(Node a, Node b){
+    if(a.getFeature() != b.getFeature()){
+        if((a.getX() - b.getX())*(a.getX() - b.getX()) + (a.getY() - b.getY())*(a.getY()-b.getY()) <= Graph::getDisPre() * Graph::getDisPre()){
+            return true;
+        }
+    }
+    return false;
+}
+
+inline string changeVecToStr(vector<Node*> v){
+    string ans;
+    for(auto node: v){
+        ans += node->getName();
+    }
+    return ans;
+}
+
+bool check_moec(vector<vector<Node*> >MOECs, vector<Node*> oec ){
+    string str = changeVecToStr(oec);
+    sort(str.begin(), str.end());
+    for(auto v: MOECs){
+        string fatherStr = changeVecToStr(v);
+        sort(fatherStr.begin(), fatherStr.end());
+        if(fatherStr.find(str) != fatherStr.npos){
+            return true;
+        }
+    }
+    return false;
+}
+
+vector< vector<Node*> > Graph::getMOEC(){
+    vector<Node> allNodes = getAllNodes();
+    sort(allNodes.begin(), allNodes.end(), 
+        [&](Node a, Node b)->bool{return (a.getX() == b.getX())?a.getY() < b.getY(): a.getX() < b.getX();});
+    vector< vector<Node*> > oec;
+    for(int i = 0;i < allNodes.size(); i++){
+        vector<Node*> temp;
+        temp.push_back(&allNodes[i]);
+        for(int j = i+1; j < allNodes.size(); j++){
+            if(checkMOEC_condition(allNodes[i], allNodes[j])){
+                temp.push_back(&allNodes[j]);
+            }
+        }
+        if(!check_moec(oec, temp)){
+            oec.push_back(temp);
+        }
+    }
+    return oec;
 }

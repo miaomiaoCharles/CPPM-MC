@@ -1,5 +1,5 @@
-/root/lqc/co-location/build/CMakeFiles/edit_cache.dir
-/root/lqc/co-location/build/CMakeFiles/rebuild_cache.dir
-/root/lqc/co-location/build/src/CMakeFiles/programer.dir
-/root/lqc/co-location/build/src/CMakeFiles/edit_cache.dir
-/root/lqc/co-location/build/src/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir
+/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/edit_cache.dir

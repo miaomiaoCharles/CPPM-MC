@@ -1,21 +1,26 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ubuntu/lqc/co-location-Frame/src/frame/graph.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/frame/graph.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/frame/node.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/frame/node.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/main.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/main.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/moec.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/moec.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/myAlgorithm.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link2.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/rowIns.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/rowIns.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/rowNode.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/rowNode.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/lqc/co-location/src/frame/graph.cpp" "src/CMakeFiles/programer.dir/frame/graph.cpp.o" "gcc" "src/CMakeFiles/programer.dir/frame/graph.cpp.o.d"
-  "/root/lqc/co-location/src/frame/node.cpp" "src/CMakeFiles/programer.dir/frame/node.cpp.o" "gcc" "src/CMakeFiles/programer.dir/frame/node.cpp.o.d"
-  "/root/lqc/co-location/src/main.cpp" "src/CMakeFiles/programer.dir/main.cpp.o" "gcc" "src/CMakeFiles/programer.dir/main.cpp.o.d"
-  "/root/lqc/co-location/src/moec.cpp" "src/CMakeFiles/programer.dir/moec.cpp.o" "gcc" "src/CMakeFiles/programer.dir/moec.cpp.o.d"
-  "/root/lqc/co-location/src/myAlgorithm.cpp" "src/CMakeFiles/programer.dir/myAlgorithm.cpp.o" "gcc" "src/CMakeFiles/programer.dir/myAlgorithm.cpp.o.d"
-  "/root/lqc/co-location/src/myAlgorithm_link.cpp" "src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o" "gcc" "src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o.d"
-  "/root/lqc/co-location/src/rowIns.cpp" "src/CMakeFiles/programer.dir/rowIns.cpp.o" "gcc" "src/CMakeFiles/programer.dir/rowIns.cpp.o.d"
-  "/root/lqc/co-location/src/rowNode.cpp" "src/CMakeFiles/programer.dir/rowNode.cpp.o" "gcc" "src/CMakeFiles/programer.dir/rowNode.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
+  "../include/framelib"
+  "../include/algorithmlib"
   )
 
 # Targets to which this target links.

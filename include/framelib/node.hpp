@@ -18,6 +18,8 @@ public:
     vector<Node*> _neighbors;
     char getFeature(){return _feature;}
     int  getNum(){return _num;}
+    double getX(){return _x;}
+    double getY(){return _y;}
 private:
     double _x;
     double _y;

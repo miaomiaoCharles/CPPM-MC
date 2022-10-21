@@ -1,41 +1,42 @@
 #include "moec.hpp"
 
-vector<string> porun(string pattern){
-    vector<string> ans;
-    for(char missAlpha: pattern){
-        string temp;
-        for(auto c: pattern){
-            if(c == missAlpha) continue;
-            temp.push_back(c);
-        }
-        ans.push_back(temp);
-    }
-    return ans;
-}
+// vector<string> porun(string pattern){
+//     vector<string> ans;
+//     for(char missAlpha: pattern){
+//         string temp;
+//         for(auto c: pattern){
+//             if(c == missAlpha) continue;
+//             temp.push_back(c);
+//         }
+//         ans.push_back(temp);
+//     }
+//     return ans;
+// }
 
 void Moec::algorithm(){
     vector<string> ans;
-    vector< vector<Node*> > maxCliques = getMaximalCliques();
-    unique_ptr<Time> t(new Time());
+    vector< vector<Node*> > moec = getMOEC();
     map<char, set<int> >idList;
     for(auto it = _featureNum.begin(); it != _featureNum.end(); it++){
         idList.insert({it->first,{}});
     }
     //生成idset
     map < int, vector<Node*> >  idToClique;
-    for(int i = 0; i < maxCliques.size(); i++){
+    for(int i = 0; i < moec.size(); i++){
         int id = i+1;
-        idToClique.insert({id, maxCliques[i]});
-        for(int j = 0; j < maxCliques[i].size(); j++){
-            idList[maxCliques[i][j]->getFeature()].insert(id);
+        idToClique.insert({id, moec[i]});
+        for(int j = 0; j < moec[i].size(); j++){
+            idList[moec[i][j]->getFeature()].insert(id);
         }
     }
     //获取要核查的极大模式
+    
     vector<string> patterns;
-    for(int i = 0; i < maxCliques.size(); i++){
+    sort(moec.begin(), moec.end(), [&](vector<Node*>a, vector<Node*>b)->bool{return a.size() < b.size();});
+    for(int i = 0; i < moec.size(); i++){
         string pattern = "";
-        for(int j = 0; j < maxCliques[i].size(); j++){
-            pattern.push_back(maxCliques[i][j]->getFeature());
+        for(int j = 0; j < moec[i].size(); j++){
+            pattern.push_back(moec[i][j]->getFeature());
         }
         //对pattern利用set进行查重，去除重复的特征
         set<char> temp;
@@ -84,11 +85,6 @@ void Moec::algorithm(){
         }
         if(pi > Graph::getPIPre()){
             ans.push_back(pattern);
-        }else{
-            vector<string> pournStr = porun(pattern);
-            for(auto str: pournStr){
-                patterns.push_back(str);
-            }
         }
     }
     //对ans进行去重处理，并且去掉阶数小于2的
@@ -97,8 +93,7 @@ void Moec::algorithm(){
         if(a.size() < 2) continue;
         ansSet.insert(a);
     }
-    for(auto a: ansSet){
+    for(string a: ansSet){
         cout << a << endl;
     }
-    cout << "算法花费时间："  << t->getTime() << endl;
 }
