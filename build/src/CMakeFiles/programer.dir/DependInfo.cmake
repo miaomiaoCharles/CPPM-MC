@@ -9,10 +9,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/lqc/co-location-Frame/src/main.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/main.cpp.o"
   "/home/ubuntu/lqc/co-location-Frame/src/moec.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/moec.cpp.o"
   "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/myAlgorithm.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o"
   "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link2.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/mySPCP.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/mySPCP.cpp.o"
   "/home/ubuntu/lqc/co-location-Frame/src/rowIns.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/rowIns.cpp.o"
   "/home/ubuntu/lqc/co-location-Frame/src/rowNode.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/rowNode.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/spatio.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/spatio.cpp.o"
+  "/home/ubuntu/lqc/co-location-Frame/src/spatioNode.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/spatioNode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

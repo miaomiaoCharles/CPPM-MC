@@ -129,33 +129,9 @@ src/CMakeFiles/programer.dir/myAlgorithm.cpp.o.provides: src/CMakeFiles/programe
 src/CMakeFiles/programer.dir/myAlgorithm.cpp.o.provides.build: src/CMakeFiles/programer.dir/myAlgorithm.cpp.o
 
 
-src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o: src/CMakeFiles/programer.dir/flags.make
-src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o: ../src/myAlgorithm_link.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o"
-	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/myAlgorithm_link.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link.cpp
-
-src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/programer.dir/myAlgorithm_link.cpp.i"
-	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link.cpp > CMakeFiles/programer.dir/myAlgorithm_link.cpp.i
-
-src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/programer.dir/myAlgorithm_link.cpp.s"
-	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link.cpp -o CMakeFiles/programer.dir/myAlgorithm_link.cpp.s
-
-src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o.requires
-
-src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o.provides: src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o.provides.build
-.PHONY : src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o.provides
-
-src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o.provides.build: src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o
-
-
 src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o: src/CMakeFiles/programer.dir/flags.make
 src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o: ../src/myAlgorithm_link2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o"
 	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link2.cpp
 
 src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.i: cmake_force
@@ -175,6 +151,30 @@ src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o.provides: src/CMakeFiles/pr
 .PHONY : src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o.provides
 
 src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o.provides.build: src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o
+
+
+src/CMakeFiles/programer.dir/mySPCP.cpp.o: src/CMakeFiles/programer.dir/flags.make
+src/CMakeFiles/programer.dir/mySPCP.cpp.o: ../src/mySPCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/programer.dir/mySPCP.cpp.o"
+	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/mySPCP.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/mySPCP.cpp
+
+src/CMakeFiles/programer.dir/mySPCP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/programer.dir/mySPCP.cpp.i"
+	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/lqc/co-location-Frame/src/mySPCP.cpp > CMakeFiles/programer.dir/mySPCP.cpp.i
+
+src/CMakeFiles/programer.dir/mySPCP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/programer.dir/mySPCP.cpp.s"
+	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/lqc/co-location-Frame/src/mySPCP.cpp -o CMakeFiles/programer.dir/mySPCP.cpp.s
+
+src/CMakeFiles/programer.dir/mySPCP.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/programer.dir/mySPCP.cpp.o.requires
+
+src/CMakeFiles/programer.dir/mySPCP.cpp.o.provides: src/CMakeFiles/programer.dir/mySPCP.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/mySPCP.cpp.o.provides.build
+.PHONY : src/CMakeFiles/programer.dir/mySPCP.cpp.o.provides
+
+src/CMakeFiles/programer.dir/mySPCP.cpp.o.provides.build: src/CMakeFiles/programer.dir/mySPCP.cpp.o
 
 
 src/CMakeFiles/programer.dir/rowIns.cpp.o: src/CMakeFiles/programer.dir/flags.make
@@ -225,9 +225,57 @@ src/CMakeFiles/programer.dir/rowNode.cpp.o.provides: src/CMakeFiles/programer.di
 src/CMakeFiles/programer.dir/rowNode.cpp.o.provides.build: src/CMakeFiles/programer.dir/rowNode.cpp.o
 
 
+src/CMakeFiles/programer.dir/spatio.cpp.o: src/CMakeFiles/programer.dir/flags.make
+src/CMakeFiles/programer.dir/spatio.cpp.o: ../src/spatio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/programer.dir/spatio.cpp.o"
+	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/spatio.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/spatio.cpp
+
+src/CMakeFiles/programer.dir/spatio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/programer.dir/spatio.cpp.i"
+	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/lqc/co-location-Frame/src/spatio.cpp > CMakeFiles/programer.dir/spatio.cpp.i
+
+src/CMakeFiles/programer.dir/spatio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/programer.dir/spatio.cpp.s"
+	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/lqc/co-location-Frame/src/spatio.cpp -o CMakeFiles/programer.dir/spatio.cpp.s
+
+src/CMakeFiles/programer.dir/spatio.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/programer.dir/spatio.cpp.o.requires
+
+src/CMakeFiles/programer.dir/spatio.cpp.o.provides: src/CMakeFiles/programer.dir/spatio.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/spatio.cpp.o.provides.build
+.PHONY : src/CMakeFiles/programer.dir/spatio.cpp.o.provides
+
+src/CMakeFiles/programer.dir/spatio.cpp.o.provides.build: src/CMakeFiles/programer.dir/spatio.cpp.o
+
+
+src/CMakeFiles/programer.dir/spatioNode.cpp.o: src/CMakeFiles/programer.dir/flags.make
+src/CMakeFiles/programer.dir/spatioNode.cpp.o: ../src/spatioNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/programer.dir/spatioNode.cpp.o"
+	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/spatioNode.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/spatioNode.cpp
+
+src/CMakeFiles/programer.dir/spatioNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/programer.dir/spatioNode.cpp.i"
+	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/lqc/co-location-Frame/src/spatioNode.cpp > CMakeFiles/programer.dir/spatioNode.cpp.i
+
+src/CMakeFiles/programer.dir/spatioNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/programer.dir/spatioNode.cpp.s"
+	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/lqc/co-location-Frame/src/spatioNode.cpp -o CMakeFiles/programer.dir/spatioNode.cpp.s
+
+src/CMakeFiles/programer.dir/spatioNode.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/programer.dir/spatioNode.cpp.o.requires
+
+src/CMakeFiles/programer.dir/spatioNode.cpp.o.provides: src/CMakeFiles/programer.dir/spatioNode.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/spatioNode.cpp.o.provides.build
+.PHONY : src/CMakeFiles/programer.dir/spatioNode.cpp.o.provides
+
+src/CMakeFiles/programer.dir/spatioNode.cpp.o.provides.build: src/CMakeFiles/programer.dir/spatioNode.cpp.o
+
+
 src/CMakeFiles/programer.dir/frame/graph.cpp.o: src/CMakeFiles/programer.dir/flags.make
 src/CMakeFiles/programer.dir/frame/graph.cpp.o: ../src/frame/graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/programer.dir/frame/graph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/programer.dir/frame/graph.cpp.o"
 	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/frame/graph.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/frame/graph.cpp
 
 src/CMakeFiles/programer.dir/frame/graph.cpp.i: cmake_force
@@ -251,7 +299,7 @@ src/CMakeFiles/programer.dir/frame/graph.cpp.o.provides.build: src/CMakeFiles/pr
 
 src/CMakeFiles/programer.dir/frame/node.cpp.o: src/CMakeFiles/programer.dir/flags.make
 src/CMakeFiles/programer.dir/frame/node.cpp.o: ../src/frame/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/programer.dir/frame/node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/programer.dir/frame/node.cpp.o"
 	cd /home/ubuntu/lqc/co-location-Frame/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/frame/node.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/frame/node.cpp
 
 src/CMakeFiles/programer.dir/frame/node.cpp.i: cmake_force
@@ -278,10 +326,12 @@ programer_OBJECTS = \
 "CMakeFiles/programer.dir/main.cpp.o" \
 "CMakeFiles/programer.dir/moec.cpp.o" \
 "CMakeFiles/programer.dir/myAlgorithm.cpp.o" \
-"CMakeFiles/programer.dir/myAlgorithm_link.cpp.o" \
 "CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o" \
+"CMakeFiles/programer.dir/mySPCP.cpp.o" \
 "CMakeFiles/programer.dir/rowIns.cpp.o" \
 "CMakeFiles/programer.dir/rowNode.cpp.o" \
+"CMakeFiles/programer.dir/spatio.cpp.o" \
+"CMakeFiles/programer.dir/spatioNode.cpp.o" \
 "CMakeFiles/programer.dir/frame/graph.cpp.o" \
 "CMakeFiles/programer.dir/frame/node.cpp.o"
 
@@ -291,15 +341,17 @@ programer_EXTERNAL_OBJECTS =
 ../bin/programer: src/CMakeFiles/programer.dir/main.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/moec.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/myAlgorithm.cpp.o
-../bin/programer: src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o
+../bin/programer: src/CMakeFiles/programer.dir/mySPCP.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/rowIns.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/rowNode.cpp.o
+../bin/programer: src/CMakeFiles/programer.dir/spatio.cpp.o
+../bin/programer: src/CMakeFiles/programer.dir/spatioNode.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/frame/graph.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/frame/node.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/build.make
 ../bin/programer: src/CMakeFiles/programer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../../bin/programer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/lqc/co-location-Frame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ../../bin/programer"
 	cd /home/ubuntu/lqc/co-location-Frame/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/programer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -310,10 +362,12 @@ src/CMakeFiles/programer.dir/build: ../bin/programer
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/main.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/moec.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/myAlgorithm.cpp.o.requires
-src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o.requires
+src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/mySPCP.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/rowIns.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/rowNode.cpp.o.requires
+src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/spatio.cpp.o.requires
+src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/spatioNode.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/frame/graph.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/frame/node.cpp.o.requires
 

@@ -4,7 +4,9 @@
 map<char, int> Graph::_featureNum;
 double Graph::_PIPre = 0;
 int Graph::_disPre = 10;
-Graph::Graph(double pi, int disPre, int maxLength, char *fileName) : _maxLength(maxLength)
+int Graph:: _timeSpan = 2;//时空模式专用
+int Graph::_t_threshold = 2;//时空模式专用
+Graph::Graph(double pi, int disPre, int maxLength, char *fileName): _maxLength(maxLength)
 {
     //以下是对参数进行判断，判断合法性
     _PIPre = pi;
@@ -66,8 +68,51 @@ Graph::Graph(double pi, int disPre, int maxLength, char *fileName) : _maxLength(
                     _nodes[i]._neighbors.push_back(&(_nodes[m[_strData[i][j]]]));
                 }
             }
-        }
+        }bili
         sort(_nodes.begin(), _nodes.end());
+    }
+}
+Graph::Graph(double pi, double s_threshold, int timeSpan, int t_threshold, char* fileName){
+    Data input;  //时空模式的数据只支持一种数据格式
+    _timeSpan = timeSpan;
+    _PIPre = pi;
+    _t_threshold = t_threshold;
+    string fileStr = "";
+    fileStr += fileName;
+    _strData = input(fileStr);
+    int i = 0;
+    for(i = 0; i < _strData.size(); i++){
+        if(_strData[i][0] == "congestionInstance:") break;
+        allRoad.push_back(Road(_strData[i][0]));
+    }
+    for(i = 0; i < _strData.size(); i++){
+        if(_strData[i][0] == "congestionInstance:") break;
+        if(_strData[i].size() <= 1) continue;
+        for(int j = 1; j < _strData[i].size(); j++){
+            string name = _strData[i][j];
+            for(Road& t:allRoad){
+                if(t.name() == name){
+                    allRoad[i]._neighbor.push_back(&t);
+                }
+            }
+        }
+    }
+    //开始接收拥塞实例
+    i++;
+    for(; i < _strData.size(); i++){
+        for(int j = 0; j < _strData[i].size(); j++){
+            allInstance.push_back(SpatioNode(_strData[i][j]));
+        }
+    }
+    //将实例放入对应的Road里去
+    for(int i = 0; i < allRoad.size(); i++){
+        Road& r = allRoad[i];
+        for(SpatioNode& ins: allInstance){
+            if(ins.roadName() == r.name()){
+                r.congestionTimes.push_back(&ins);
+                ins.feature = &(allRoad[i]);
+            }
+        }   
     }
 }
 
@@ -169,8 +214,6 @@ vector<vector<Node *>> Graph::getMaximalCliques()
     return ans;
 }
 
-
-
 void Graph::printAns(vector<vector<char>> ans)
 {
     for (int i = 0; i < ans.size(); i++)
@@ -243,4 +286,13 @@ vector< vector<Node*> > Graph::getMOEC(){
         }
     }
     return oec;
+}
+
+bool Graph::checkPourn(string pattern){
+    for(int i = 0; i < result.size(); i++){
+        if(result[i].find(pattern) != result[i].npos){
+            return true;
+        }
+    }
+    return false;
 }

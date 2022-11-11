@@ -260,33 +260,6 @@ myAlgorithm.cpp.s:
 	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/myAlgorithm.cpp.s
 .PHONY : myAlgorithm.cpp.s
 
-myAlgorithm_link.o: myAlgorithm_link.cpp.o
-
-.PHONY : myAlgorithm_link.o
-
-# target to build an object file
-myAlgorithm_link.cpp.o:
-	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.o
-.PHONY : myAlgorithm_link.cpp.o
-
-myAlgorithm_link.i: myAlgorithm_link.cpp.i
-
-.PHONY : myAlgorithm_link.i
-
-# target to preprocess a source file
-myAlgorithm_link.cpp.i:
-	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.i
-.PHONY : myAlgorithm_link.cpp.i
-
-myAlgorithm_link.s: myAlgorithm_link.cpp.s
-
-.PHONY : myAlgorithm_link.s
-
-# target to generate assembly for a file
-myAlgorithm_link.cpp.s:
-	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/myAlgorithm_link.cpp.s
-.PHONY : myAlgorithm_link.cpp.s
-
 myAlgorithm_link2.o: myAlgorithm_link2.cpp.o
 
 .PHONY : myAlgorithm_link2.o
@@ -313,6 +286,33 @@ myAlgorithm_link2.s: myAlgorithm_link2.cpp.s
 myAlgorithm_link2.cpp.s:
 	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.s
 .PHONY : myAlgorithm_link2.cpp.s
+
+mySPCP.o: mySPCP.cpp.o
+
+.PHONY : mySPCP.o
+
+# target to build an object file
+mySPCP.cpp.o:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/mySPCP.cpp.o
+.PHONY : mySPCP.cpp.o
+
+mySPCP.i: mySPCP.cpp.i
+
+.PHONY : mySPCP.i
+
+# target to preprocess a source file
+mySPCP.cpp.i:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/mySPCP.cpp.i
+.PHONY : mySPCP.cpp.i
+
+mySPCP.s: mySPCP.cpp.s
+
+.PHONY : mySPCP.s
+
+# target to generate assembly for a file
+mySPCP.cpp.s:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/mySPCP.cpp.s
+.PHONY : mySPCP.cpp.s
 
 rowIns.o: rowIns.cpp.o
 
@@ -368,6 +368,60 @@ rowNode.cpp.s:
 	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/rowNode.cpp.s
 .PHONY : rowNode.cpp.s
 
+spatio.o: spatio.cpp.o
+
+.PHONY : spatio.o
+
+# target to build an object file
+spatio.cpp.o:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/spatio.cpp.o
+.PHONY : spatio.cpp.o
+
+spatio.i: spatio.cpp.i
+
+.PHONY : spatio.i
+
+# target to preprocess a source file
+spatio.cpp.i:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/spatio.cpp.i
+.PHONY : spatio.cpp.i
+
+spatio.s: spatio.cpp.s
+
+.PHONY : spatio.s
+
+# target to generate assembly for a file
+spatio.cpp.s:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/spatio.cpp.s
+.PHONY : spatio.cpp.s
+
+spatioNode.o: spatioNode.cpp.o
+
+.PHONY : spatioNode.o
+
+# target to build an object file
+spatioNode.cpp.o:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/spatioNode.cpp.o
+.PHONY : spatioNode.cpp.o
+
+spatioNode.i: spatioNode.cpp.i
+
+.PHONY : spatioNode.i
+
+# target to preprocess a source file
+spatioNode.cpp.i:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/spatioNode.cpp.i
+.PHONY : spatioNode.cpp.i
+
+spatioNode.s: spatioNode.cpp.s
+
+.PHONY : spatioNode.s
+
+# target to generate assembly for a file
+spatioNode.cpp.s:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/spatioNode.cpp.s
+.PHONY : spatioNode.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -392,18 +446,24 @@ help:
 	@echo "... myAlgorithm.o"
 	@echo "... myAlgorithm.i"
 	@echo "... myAlgorithm.s"
-	@echo "... myAlgorithm_link.o"
-	@echo "... myAlgorithm_link.i"
-	@echo "... myAlgorithm_link.s"
 	@echo "... myAlgorithm_link2.o"
 	@echo "... myAlgorithm_link2.i"
 	@echo "... myAlgorithm_link2.s"
+	@echo "... mySPCP.o"
+	@echo "... mySPCP.i"
+	@echo "... mySPCP.s"
 	@echo "... rowIns.o"
 	@echo "... rowIns.i"
 	@echo "... rowIns.s"
 	@echo "... rowNode.o"
 	@echo "... rowNode.i"
 	@echo "... rowNode.s"
+	@echo "... spatio.o"
+	@echo "... spatio.i"
+	@echo "... spatio.s"
+	@echo "... spatioNode.o"
+	@echo "... spatioNode.i"
+	@echo "... spatioNode.s"
 .PHONY : help
 
 

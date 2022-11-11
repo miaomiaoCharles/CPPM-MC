@@ -28,7 +28,13 @@ rowIns.hpp
 rowNode.hpp
 ../include/algorithmlib/rowNode.hpp
 
-../include/algorithmlib/myAlgorithm_link.hpp
+../include/algorithmlib/myAlgorithm_link2.hpp
+iostream
+-
+graph.hpp
+../include/algorithmlib/graph.hpp
+
+../include/algorithmlib/mySPCP.hpp
 iostream
 -
 algorithm
@@ -36,12 +42,6 @@ algorithm
 unordered_map
 -
 list
--
-graph.hpp
-../include/algorithmlib/graph.hpp
-
-../include/algorithmlib/myAlgorithm_link2.hpp
-iostream
 -
 graph.hpp
 ../include/algorithmlib/graph.hpp
@@ -72,6 +72,24 @@ vector
 unordered_map
 -
 
+../include/algorithmlib/spatio.hpp
+iostream
+-
+graph.hpp
+../include/algorithmlib/graph.hpp
+spatioNode.hpp
+../include/algorithmlib/spatioNode.hpp
+
+../include/algorithmlib/spatioNode.hpp
+iostream
+-
+string
+-
+node.hpp
+../include/algorithmlib/node.hpp
+vector
+-
+
 ../include/framelib/data.hpp
 fstream
 -
@@ -89,6 +107,8 @@ node.hpp
 ../include/framelib/node.hpp
 time.hpp
 ../include/framelib/time.hpp
+spatioNode.hpp
+../include/framelib/spatioNode.hpp
 iostream
 -
 set
@@ -145,10 +165,12 @@ time.hpp
 /home/ubuntu/lqc/co-location-Frame/src/time.hpp
 myAlgorithm.hpp
 /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm.hpp
-myAlgorithm_link.hpp
-/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link.hpp
+mySPCP.hpp
+/home/ubuntu/lqc/co-location-Frame/src/mySPCP.hpp
 myAlgorithm_link2.hpp
 /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link2.hpp
+spatio.hpp
+/home/ubuntu/lqc/co-location-Frame/src/spatio.hpp
 iostream
 -
 
@@ -160,13 +182,13 @@ moec.hpp
 myAlgorithm.hpp
 /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm.hpp
 
-/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link.cpp
-myAlgorithm_link.hpp
-/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link.hpp
-
 /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link2.cpp
 myAlgorithm_link2.hpp
 /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link2.hpp
+
+/home/ubuntu/lqc/co-location-Frame/src/mySPCP.cpp
+mySPCP.hpp
+/home/ubuntu/lqc/co-location-Frame/src/mySPCP.hpp
 
 /home/ubuntu/lqc/co-location-Frame/src/rowIns.cpp
 rowIns.hpp
@@ -175,4 +197,12 @@ rowIns.hpp
 /home/ubuntu/lqc/co-location-Frame/src/rowNode.cpp
 rowNode.hpp
 /home/ubuntu/lqc/co-location-Frame/src/rowNode.hpp
+
+/home/ubuntu/lqc/co-location-Frame/src/spatio.cpp
+spatio.hpp
+/home/ubuntu/lqc/co-location-Frame/src/spatio.hpp
+
+/home/ubuntu/lqc/co-location-Frame/src/spatioNode.cpp
+spatioNode.hpp
+/home/ubuntu/lqc/co-location-Frame/src/spatioNode.hpp
 
