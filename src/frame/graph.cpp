@@ -68,7 +68,7 @@ Graph::Graph(double pi, int disPre, int maxLength, char *fileName): _maxLength(m
                     _nodes[i]._neighbors.push_back(&(_nodes[m[_strData[i][j]]]));
                 }
             }
-        }bili
+        }
         sort(_nodes.begin(), _nodes.end());
     }
 }
