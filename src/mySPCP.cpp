@@ -71,10 +71,6 @@ private:
 
 
 
-
-
-
-
 int check(int sorceRowLoc, vector<Row>& rows){
     Row& row = rows[sorceRowLoc];
     for(int j = sorceRowLoc-1; j >= 0; j--){

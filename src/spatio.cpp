@@ -77,7 +77,9 @@ void Spatio::algorithm(){
             }
         }
     }
-
+    for(auto it = insNeighborMap.begin(); it != insNeighborMap.end(); it++){
+        cout << it->first->getInsName() << " " << it->second->getInsName() << endl;
+    }
     for(auto ins: allInstance){
         if(featureNum.find(ins.roadName()) == featureNum.end()){
             featureNum.insert({ins.roadName(), 1});
@@ -101,7 +103,6 @@ void Spatio::algorithm(){
         tempSet.insert(*(it->second));
         tableMap[strSet]._table.push_back(tempSet);
     }
-    int k = 2;
     vector<set<string> > ans;
     vector<Table> prevalentTable;
     for(auto it = tableMap.begin(); it != tableMap.end(); it++){

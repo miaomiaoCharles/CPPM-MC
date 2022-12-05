@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/programer.dir/CPPM-MC.cpp.o"
   "CMakeFiles/programer.dir/main.cpp.o"
   "CMakeFiles/programer.dir/moec.cpp.o"
   "CMakeFiles/programer.dir/myAlgorithm.cpp.o"

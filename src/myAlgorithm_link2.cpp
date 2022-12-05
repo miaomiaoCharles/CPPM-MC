@@ -1,8 +1,5 @@
 #include "myAlgorithm_link2.hpp"
 
-
-
-
 class Row{
 public:
     Row(){};
@@ -132,6 +129,12 @@ string getPatternFromNodes(vector<Node*> nodes){
 void MyAlgorithm_link2::algorithm() {
     //先进行初始化，建立每个组,并把每个极大团加入组中
     vector< vector<Node*> > maxCliques = getMaximalCliques();
+    for(int i = 0; i < maxCliques.size(); i++){
+        for(int j = 0; j < maxCliques[i].size(); j++){
+            cout << maxCliques[i][j]->getName() << " ";
+        }
+        cout << endl;
+    }
     for(int i = 0; i < maxCliques.size(); i++){
         vector<Node*>& clique = maxCliques[i];
         string str = getPatternFromNodes(clique);

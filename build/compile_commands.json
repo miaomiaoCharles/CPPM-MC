@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
+  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/CPPM-MC.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/CPPM-MC.cpp",
+  "file": "/home/ubuntu/lqc/co-location-Frame/src/CPPM-MC.cpp"
+},
+{
+  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
   "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/main.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/main.cpp",
   "file": "/home/ubuntu/lqc/co-location-Frame/src/main.cpp"
 },

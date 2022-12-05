@@ -125,6 +125,33 @@ programer/fast:
 	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/build
 .PHONY : programer/fast
 
+CPPM-MC.o: CPPM-MC.cpp.o
+
+.PHONY : CPPM-MC.o
+
+# target to build an object file
+CPPM-MC.cpp.o:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/CPPM-MC.cpp.o
+.PHONY : CPPM-MC.cpp.o
+
+CPPM-MC.i: CPPM-MC.cpp.i
+
+.PHONY : CPPM-MC.i
+
+# target to preprocess a source file
+CPPM-MC.cpp.i:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/CPPM-MC.cpp.i
+.PHONY : CPPM-MC.cpp.i
+
+CPPM-MC.s: CPPM-MC.cpp.s
+
+.PHONY : CPPM-MC.s
+
+# target to generate assembly for a file
+CPPM-MC.cpp.s:
+	cd /home/ubuntu/lqc/co-location-Frame/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/CPPM-MC.cpp.s
+.PHONY : CPPM-MC.cpp.s
+
 frame/graph.o: frame/graph.cpp.o
 
 .PHONY : frame/graph.o
@@ -431,6 +458,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... programer"
 	@echo "... edit_cache"
+	@echo "... CPPM-MC.o"
+	@echo "... CPPM-MC.i"
+	@echo "... CPPM-MC.s"
 	@echo "... frame/graph.o"
 	@echo "... frame/graph.i"
 	@echo "... frame/graph.s"
