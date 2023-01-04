@@ -24,7 +24,8 @@
         "utility": "cpp",
         "functional": "cpp",
         "numeric": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "unordered_set": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

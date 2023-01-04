@@ -7,7 +7,7 @@ using namespace std;
 class Node{
 public:
     Node(double x, double y, string name);
-    Node(double x, double y, char feature, int number);
+    Node(double x, double y, string featureName, int number);
     Node(string name);
     string getName();
     bool isNeighbor(const Node& node, int disPre);
@@ -16,14 +16,14 @@ public:
     bool operator ==(const Node& node);
     bool operator ==(Node* node);
     vector<Node*> _neighbors;
-    char getFeature(){return _feature;}
+    string getFeature(){return _feature;}
     int  getNum(){return _num;}
     double getX(){return _x;}
     double getY(){return _y;}
 private:
     double _x;
     double _y;
-    char _feature;
+    string _feature;
     int _num;
 };
 

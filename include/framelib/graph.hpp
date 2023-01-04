@@ -2,7 +2,6 @@
 #define GRAPH
 #include "node.hpp"
 #include "time.hpp"
-#include "spatioNode.hpp"
 #include <iostream>
 #include <set>
 #include <map>
@@ -24,14 +23,11 @@ public:
     static int getDisPre(){return _disPre;}
     int getMaxLength(){return  _maxLength;}
     vector<Node> getAllNodes(){return _nodes;}
-    void printAns(vector< vector<char> > ans);
-    static int loadFeatureNum(char c);
-    int getModel();
-    vector< vector<Node*> > getMOEC(); //2022年论文MOEC专用，一般用不到这个函数   
-    static map<char, int> _featureNum;
+    void printAns(vector< vector<string> > ans);
+    static int loadFeatureNum(string c);
+    int getModel(); 
+    static map<string, int> _featureNum;
     bool checkPourn(string pattern);
-    static int _timeSpan;//时空模式专用
-    static int _t_threshold;//时空模式专用
 protected:
     vector<string> result;
     map <Node, vector<Node> > _neiRelationship;
@@ -40,9 +36,6 @@ protected:
     static double _PIPre;
     static int _disPre;
     int _maxLength;
-    // map<Road*, vector<Road> > neighbor_roadMap; //时空模式专用，保存道路之间的联通关系
-    vector<SpatioNode> allInstance; //时空模式专用，保存所有拥堵实例
-    vector<Road> allRoad; //时空模式专用，保存所有道路。
 };
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/lqc/co-location-Frame/src
+# Install script for directory: /home/ubuntu/lqc/CPPM-MC/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

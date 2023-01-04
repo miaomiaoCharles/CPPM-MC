@@ -6,5 +6,5 @@ CXX_FLAGS = -g -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib 
+CXX_INCLUDES = -I/home/ubuntu/lqc/CPPM-MC/include -I/home/ubuntu/lqc/CPPM-MC/include/framelib -I/home/ubuntu/lqc/CPPM-MC/include/algorithmlib 
 

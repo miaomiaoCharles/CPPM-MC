@@ -4,18 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/lqc/co-location-Frame/src/CPPM-MC.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/CPPM-MC.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/frame/graph.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/frame/graph.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/frame/node.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/frame/node.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/main.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/main.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/moec.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/moec.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/myAlgorithm.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link2.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/mySPCP.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/mySPCP.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/rowIns.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/rowIns.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/rowNode.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/rowNode.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/spatio.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/spatio.cpp.o"
-  "/home/ubuntu/lqc/co-location-Frame/src/spatioNode.cpp" "/home/ubuntu/lqc/co-location-Frame/build/src/CMakeFiles/programer.dir/spatioNode.cpp.o"
+  "/home/ubuntu/lqc/CPPM-MC/src/CPPM-MC.cpp" "/home/ubuntu/lqc/CPPM-MC/build/src/CMakeFiles/programer.dir/CPPM-MC.cpp.o"
+  "/home/ubuntu/lqc/CPPM-MC/src/frame/graph.cpp" "/home/ubuntu/lqc/CPPM-MC/build/src/CMakeFiles/programer.dir/frame/graph.cpp.o"
+  "/home/ubuntu/lqc/CPPM-MC/src/frame/node.cpp" "/home/ubuntu/lqc/CPPM-MC/build/src/CMakeFiles/programer.dir/frame/node.cpp.o"
+  "/home/ubuntu/lqc/CPPM-MC/src/main.cpp" "/home/ubuntu/lqc/CPPM-MC/build/src/CMakeFiles/programer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

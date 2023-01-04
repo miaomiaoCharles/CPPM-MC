@@ -1,14 +1,30 @@
 #include "node.hpp"
 #include "graph.hpp"
 Node::Node(double x, double y, string name):_x(x), _y(y){
-    _feature = name[0];
-    _num = stoi(name.substr(1));
+    _feature = "";
+    string numStr;
+    for(auto c: name){
+        if(!isdigit(c)){
+            _feature.push_back(c);
+        }else{
+            numStr += c;
+        }
+    }
+    _num = stoi(numStr);
 }
 
-Node::Node(double x, double y, char feature, int number):_x(x), _y(y), _feature(feature), _num(number){}
+Node::Node(double x, double y, string feature, int number):_x(x), _y(y), _feature(feature), _num(number){}
 Node::Node(string name){
-    _feature = name[0];
-    _num = stoi(name.substr(1));
+    _feature = "";
+    string numStr;
+    for(auto c: name){
+        if(!isdigit(c)){
+            _feature.push_back(c);
+        }else{
+            numStr += c;
+        }
+    }
+    _num = stoi(numStr);
     _x = 0;
     _y = 0;
 }

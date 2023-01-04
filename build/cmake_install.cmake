@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/lqc/co-location-Frame
+# Install script for directory: /home/ubuntu/lqc/CPPM-MC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/lqc/co-location-Frame/build/src/cmake_install.cmake")
+  include("/home/ubuntu/lqc/CPPM-MC/build/src/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/lqc/co-location-Frame/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/lqc/CPPM-MC/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

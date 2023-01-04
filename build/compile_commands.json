@@ -1,62 +1,22 @@
 [
 {
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/CPPM-MC.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/CPPM-MC.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/CPPM-MC.cpp"
+  "directory": "/home/ubuntu/lqc/CPPM-MC/build/src",
+  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/CPPM-MC/include -I/home/ubuntu/lqc/CPPM-MC/include/framelib -I/home/ubuntu/lqc/CPPM-MC/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/CPPM-MC.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/CPPM-MC.cpp",
+  "file": "/home/ubuntu/lqc/CPPM-MC/src/CPPM-MC.cpp"
 },
 {
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/main.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/main.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/main.cpp"
+  "directory": "/home/ubuntu/lqc/CPPM-MC/build/src",
+  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/CPPM-MC/include -I/home/ubuntu/lqc/CPPM-MC/include/framelib -I/home/ubuntu/lqc/CPPM-MC/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/main.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/main.cpp",
+  "file": "/home/ubuntu/lqc/CPPM-MC/src/main.cpp"
 },
 {
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/moec.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/moec.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/moec.cpp"
+  "directory": "/home/ubuntu/lqc/CPPM-MC/build/src",
+  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/CPPM-MC/include -I/home/ubuntu/lqc/CPPM-MC/include/framelib -I/home/ubuntu/lqc/CPPM-MC/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/frame/graph.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/frame/graph.cpp",
+  "file": "/home/ubuntu/lqc/CPPM-MC/src/frame/graph.cpp"
 },
 {
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/myAlgorithm.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm.cpp"
-},
-{
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/myAlgorithm_link2.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link2.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/myAlgorithm_link2.cpp"
-},
-{
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/mySPCP.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/mySPCP.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/mySPCP.cpp"
-},
-{
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/rowIns.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/rowIns.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/rowIns.cpp"
-},
-{
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/rowNode.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/rowNode.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/rowNode.cpp"
-},
-{
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/spatio.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/spatio.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/spatio.cpp"
-},
-{
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/spatioNode.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/spatioNode.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/spatioNode.cpp"
-},
-{
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/frame/graph.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/frame/graph.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/frame/graph.cpp"
-},
-{
-  "directory": "/home/ubuntu/lqc/co-location-Frame/build/src",
-  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/co-location-Frame/include -I/home/ubuntu/lqc/co-location-Frame/include/framelib -I/home/ubuntu/lqc/co-location-Frame/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/frame/node.cpp.o -c /home/ubuntu/lqc/co-location-Frame/src/frame/node.cpp",
-  "file": "/home/ubuntu/lqc/co-location-Frame/src/frame/node.cpp"
+  "directory": "/home/ubuntu/lqc/CPPM-MC/build/src",
+  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/CPPM-MC/include -I/home/ubuntu/lqc/CPPM-MC/include/framelib -I/home/ubuntu/lqc/CPPM-MC/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/frame/node.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/frame/node.cpp",
+  "file": "/home/ubuntu/lqc/CPPM-MC/src/frame/node.cpp"
 }
 ]
