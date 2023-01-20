@@ -5,7 +5,14 @@ src/CMakeFiles/programer.dir/CPPM-MC.cpp.o: ../include/algorithmlib/CPPM-MC.hpp
 src/CMakeFiles/programer.dir/CPPM-MC.cpp.o: ../include/framelib/graph.hpp
 src/CMakeFiles/programer.dir/CPPM-MC.cpp.o: ../include/framelib/node.hpp
 src/CMakeFiles/programer.dir/CPPM-MC.cpp.o: ../include/framelib/time.hpp
+src/CMakeFiles/programer.dir/CPPM-MC.cpp.o: ../include/framelib/write.hpp
 src/CMakeFiles/programer.dir/CPPM-MC.cpp.o: ../src/CPPM-MC.cpp
+
+src/CMakeFiles/programer.dir/MaxIns.cpp.o: ../include/algorithmlib/MaxIns.hpp
+src/CMakeFiles/programer.dir/MaxIns.cpp.o: ../include/framelib/graph.hpp
+src/CMakeFiles/programer.dir/MaxIns.cpp.o: ../include/framelib/node.hpp
+src/CMakeFiles/programer.dir/MaxIns.cpp.o: ../include/framelib/time.hpp
+src/CMakeFiles/programer.dir/MaxIns.cpp.o: ../src/MaxIns.cpp
 
 src/CMakeFiles/programer.dir/frame/graph.cpp.o: ../include/framelib/data.hpp
 src/CMakeFiles/programer.dir/frame/graph.cpp.o: ../include/framelib/graph.hpp
@@ -19,6 +26,7 @@ src/CMakeFiles/programer.dir/frame/node.cpp.o: ../include/framelib/time.hpp
 src/CMakeFiles/programer.dir/frame/node.cpp.o: ../src/frame/node.cpp
 
 src/CMakeFiles/programer.dir/main.cpp.o: ../include/algorithmlib/CPPM-MC.hpp
+src/CMakeFiles/programer.dir/main.cpp.o: ../include/algorithmlib/MaxIns.hpp
 src/CMakeFiles/programer.dir/main.cpp.o: ../include/framelib/graph.hpp
 src/CMakeFiles/programer.dir/main.cpp.o: ../include/framelib/node.hpp
 src/CMakeFiles/programer.dir/main.cpp.o: ../include/framelib/time.hpp

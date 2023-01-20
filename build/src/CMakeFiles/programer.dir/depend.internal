@@ -6,7 +6,14 @@ src/CMakeFiles/programer.dir/CPPM-MC.cpp.o
  ../include/framelib/graph.hpp
  ../include/framelib/node.hpp
  ../include/framelib/time.hpp
+ ../include/framelib/write.hpp
  /home/ubuntu/lqc/CPPM-MC/src/CPPM-MC.cpp
+src/CMakeFiles/programer.dir/MaxIns.cpp.o
+ ../include/algorithmlib/MaxIns.hpp
+ ../include/framelib/graph.hpp
+ ../include/framelib/node.hpp
+ ../include/framelib/time.hpp
+ /home/ubuntu/lqc/CPPM-MC/src/MaxIns.cpp
 src/CMakeFiles/programer.dir/frame/graph.cpp.o
  ../include/framelib/data.hpp
  ../include/framelib/graph.hpp
@@ -20,6 +27,7 @@ src/CMakeFiles/programer.dir/frame/node.cpp.o
  /home/ubuntu/lqc/CPPM-MC/src/frame/node.cpp
 src/CMakeFiles/programer.dir/main.cpp.o
  ../include/algorithmlib/CPPM-MC.hpp
+ ../include/algorithmlib/MaxIns.hpp
  ../include/framelib/graph.hpp
  ../include/framelib/node.hpp
  ../include/framelib/time.hpp

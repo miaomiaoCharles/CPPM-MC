@@ -12,6 +12,12 @@ iostream
 graph.hpp
 ../include/algorithmlib/graph.hpp
 
+../include/algorithmlib/MaxIns.hpp
+iostream
+-
+graph.hpp
+../include/algorithmlib/graph.hpp
+
 ../include/framelib/data.hpp
 fstream
 -
@@ -60,12 +66,34 @@ iostream
 chrono
 -
 
+../include/framelib/write.hpp
+iostream
+-
+fstream
+-
+
 /home/ubuntu/lqc/CPPM-MC/src/CPPM-MC.cpp
 CPPM-MC.hpp
 /home/ubuntu/lqc/CPPM-MC/src/CPPM-MC.hpp
 unordered_set
 -
 string
+-
+write.hpp
+/home/ubuntu/lqc/CPPM-MC/src/write.hpp
+
+/home/ubuntu/lqc/CPPM-MC/src/MaxIns.cpp
+MaxIns.hpp
+/home/ubuntu/lqc/CPPM-MC/src/MaxIns.hpp
+node.hpp
+/home/ubuntu/lqc/CPPM-MC/src/node.hpp
+graph.hpp
+/home/ubuntu/lqc/CPPM-MC/src/graph.hpp
+stack
+-
+vector
+-
+set
 -
 
 /home/ubuntu/lqc/CPPM-MC/src/frame/graph.cpp
@@ -91,6 +119,8 @@ time.hpp
 /home/ubuntu/lqc/CPPM-MC/src/time.hpp
 CPPM-MC.hpp
 /home/ubuntu/lqc/CPPM-MC/src/CPPM-MC.hpp
+MaxIns.hpp
+/home/ubuntu/lqc/CPPM-MC/src/MaxIns.hpp
 iostream
 -
 

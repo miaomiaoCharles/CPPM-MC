@@ -10,7 +10,7 @@ public:
     }
     int getTime(){
         endTime = chrono::system_clock::now();
-        return chrono::duration_cast<std::chrono::microseconds>(endTime - startTime).count();
+        return chrono::duration<double,milli>(endTime - startTime).count();
     }
 private:
     chrono::system_clock::time_point startTime;

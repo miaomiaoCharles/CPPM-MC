@@ -81,9 +81,33 @@ src/CMakeFiles/programer.dir/CPPM-MC.cpp.o.provides: src/CMakeFiles/programer.di
 src/CMakeFiles/programer.dir/CPPM-MC.cpp.o.provides.build: src/CMakeFiles/programer.dir/CPPM-MC.cpp.o
 
 
+src/CMakeFiles/programer.dir/MaxIns.cpp.o: src/CMakeFiles/programer.dir/flags.make
+src/CMakeFiles/programer.dir/MaxIns.cpp.o: ../src/MaxIns.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/CPPM-MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/programer.dir/MaxIns.cpp.o"
+	cd /home/ubuntu/lqc/CPPM-MC/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/MaxIns.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/MaxIns.cpp
+
+src/CMakeFiles/programer.dir/MaxIns.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/programer.dir/MaxIns.cpp.i"
+	cd /home/ubuntu/lqc/CPPM-MC/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/lqc/CPPM-MC/src/MaxIns.cpp > CMakeFiles/programer.dir/MaxIns.cpp.i
+
+src/CMakeFiles/programer.dir/MaxIns.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/programer.dir/MaxIns.cpp.s"
+	cd /home/ubuntu/lqc/CPPM-MC/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/lqc/CPPM-MC/src/MaxIns.cpp -o CMakeFiles/programer.dir/MaxIns.cpp.s
+
+src/CMakeFiles/programer.dir/MaxIns.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/programer.dir/MaxIns.cpp.o.requires
+
+src/CMakeFiles/programer.dir/MaxIns.cpp.o.provides: src/CMakeFiles/programer.dir/MaxIns.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/MaxIns.cpp.o.provides.build
+.PHONY : src/CMakeFiles/programer.dir/MaxIns.cpp.o.provides
+
+src/CMakeFiles/programer.dir/MaxIns.cpp.o.provides.build: src/CMakeFiles/programer.dir/MaxIns.cpp.o
+
+
 src/CMakeFiles/programer.dir/main.cpp.o: src/CMakeFiles/programer.dir/flags.make
 src/CMakeFiles/programer.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/CPPM-MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/programer.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/CPPM-MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/programer.dir/main.cpp.o"
 	cd /home/ubuntu/lqc/CPPM-MC/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/main.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/main.cpp
 
 src/CMakeFiles/programer.dir/main.cpp.i: cmake_force
@@ -107,7 +131,7 @@ src/CMakeFiles/programer.dir/main.cpp.o.provides.build: src/CMakeFiles/programer
 
 src/CMakeFiles/programer.dir/frame/graph.cpp.o: src/CMakeFiles/programer.dir/flags.make
 src/CMakeFiles/programer.dir/frame/graph.cpp.o: ../src/frame/graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/CPPM-MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/programer.dir/frame/graph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/CPPM-MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/programer.dir/frame/graph.cpp.o"
 	cd /home/ubuntu/lqc/CPPM-MC/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/frame/graph.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/frame/graph.cpp
 
 src/CMakeFiles/programer.dir/frame/graph.cpp.i: cmake_force
@@ -131,7 +155,7 @@ src/CMakeFiles/programer.dir/frame/graph.cpp.o.provides.build: src/CMakeFiles/pr
 
 src/CMakeFiles/programer.dir/frame/node.cpp.o: src/CMakeFiles/programer.dir/flags.make
 src/CMakeFiles/programer.dir/frame/node.cpp.o: ../src/frame/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/CPPM-MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/programer.dir/frame/node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/lqc/CPPM-MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/programer.dir/frame/node.cpp.o"
 	cd /home/ubuntu/lqc/CPPM-MC/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programer.dir/frame/node.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/frame/node.cpp
 
 src/CMakeFiles/programer.dir/frame/node.cpp.i: cmake_force
@@ -156,6 +180,7 @@ src/CMakeFiles/programer.dir/frame/node.cpp.o.provides.build: src/CMakeFiles/pro
 # Object files for target programer
 programer_OBJECTS = \
 "CMakeFiles/programer.dir/CPPM-MC.cpp.o" \
+"CMakeFiles/programer.dir/MaxIns.cpp.o" \
 "CMakeFiles/programer.dir/main.cpp.o" \
 "CMakeFiles/programer.dir/frame/graph.cpp.o" \
 "CMakeFiles/programer.dir/frame/node.cpp.o"
@@ -164,12 +189,13 @@ programer_OBJECTS = \
 programer_EXTERNAL_OBJECTS =
 
 ../bin/programer: src/CMakeFiles/programer.dir/CPPM-MC.cpp.o
+../bin/programer: src/CMakeFiles/programer.dir/MaxIns.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/main.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/frame/graph.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/frame/node.cpp.o
 ../bin/programer: src/CMakeFiles/programer.dir/build.make
 ../bin/programer: src/CMakeFiles/programer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/lqc/CPPM-MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../bin/programer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/lqc/CPPM-MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../bin/programer"
 	cd /home/ubuntu/lqc/CPPM-MC/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/programer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,6 +204,7 @@ src/CMakeFiles/programer.dir/build: ../bin/programer
 .PHONY : src/CMakeFiles/programer.dir/build
 
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/CPPM-MC.cpp.o.requires
+src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/MaxIns.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/main.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/frame/graph.cpp.o.requires
 src/CMakeFiles/programer.dir/requires: src/CMakeFiles/programer.dir/frame/node.cpp.o.requires

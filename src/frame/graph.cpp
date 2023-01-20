@@ -88,6 +88,10 @@ Graph::Graph(double pi, int disPre, int maxLength, char *fileName): _maxLength(m
         }
         sort(_nodes.begin(), _nodes.end());
     }
+    for(int i = 0; i < _nodes.size(); i++){
+      _nodes[i]._id = i;
+    }
+
 }
 
 bool isclique(vector<Node *> cur, Node *node)
@@ -186,6 +190,63 @@ vector<vector<Node *>> Graph::getMaximalCliques()
         }
     }
     return ans;
+}
+//一种优化的bronKerbosch算法
+void bronKerboschPivot(vector<vector<int>> &graph, vector<int> &R, vector<int> &P, vector<int> &X, vector<vector<int> >& cliques){
+    if (P.empty() && X.empty()) {
+        cliques.push_back(R);
+        return;
+    }
+    for (auto v : P) {
+        vector<int> R_v(R);
+        R_v.push_back(v);
+        vector<int> P_v;
+        vector<int> X_v;
+        for (auto n : graph[v]) {
+            if (find(P.begin(), P.end(), n) != P.end()) {
+                P_v.push_back(n);
+            } else if (find(X.begin(), X.end(), n) != X.end()) {
+                X_v.push_back(n);
+            }
+        }
+        bronKerboschPivot(graph,R_v, P_v, X_v,cliques);
+        P.erase(remove(P.begin(), P.end(), v), P.end());
+        X.push_back(v);
+    }
+}
+
+vector<vector<Node *>> Graph::bronKerbosch(){
+  vector<vector<int>> adj_list_init;
+  vector<int> r, x;
+  for(int i = 0; i < _nodes.size(); i++){
+    vector<Node*>& nei = _nodes[i]._neighbors;
+    vector<int> temp;
+    for(auto np: nei){
+      temp.push_back(np->_id);
+    }
+    adj_list_init.push_back(temp);
+  }
+  vector<vector<int>> adj_list = adj_list_init;
+  for(int i = 0; i < adj_list_init.size(); i++){
+    for(auto id: adj_list_init[i]){
+      adj_list[id].push_back(i);
+    }
+  }
+  vector<int> p(adj_list.size());
+  for(int i = 0; i < adj_list.size(); i++){
+    p[i] = i;
+  }
+  vector<vector<int> > cliques;
+  bronKerboschPivot(adj_list, r, p, x, cliques);
+  vector<vector<Node*> > ans;
+  for(int i = 0; i < cliques.size(); i++){
+    vector<Node*> temp;
+    for(int j = 0; j < cliques[i].size(); j++){
+      temp.push_back(&(_nodes[cliques[i][j]]));
+    }
+    ans.push_back(temp);
+  }
+  return ans;
 }
 
 void Graph::printAns(vector<vector<string>> ans)

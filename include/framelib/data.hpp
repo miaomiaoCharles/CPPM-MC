@@ -16,6 +16,7 @@ public:
         inFile.open("../data/" + dataName);
         while (getline(inFile, str))
         {
+            str.erase(0, str.find_first_not_of(" "));
             vector<string>  v;
             istringstream ss(str);
             string word;

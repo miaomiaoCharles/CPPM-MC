@@ -28,6 +28,8 @@ public:
     int getModel(); 
     static map<string, int> _featureNum;
     bool checkPourn(string pattern);
+    vector<vector<Node *>> bronKerbosch();
+    
 protected:
     vector<string> result;
     map <Node, vector<Node> > _neiRelationship;

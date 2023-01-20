@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/programer.dir/CPPM-MC.cpp.o"
+  "CMakeFiles/programer.dir/MaxIns.cpp.o"
   "CMakeFiles/programer.dir/main.cpp.o"
   "CMakeFiles/programer.dir/frame/graph.cpp.o"
   "CMakeFiles/programer.dir/frame/node.cpp.o"

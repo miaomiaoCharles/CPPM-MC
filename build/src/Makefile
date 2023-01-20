@@ -152,6 +152,33 @@ CPPM-MC.cpp.s:
 	cd /home/ubuntu/lqc/CPPM-MC/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/CPPM-MC.cpp.s
 .PHONY : CPPM-MC.cpp.s
 
+MaxIns.o: MaxIns.cpp.o
+
+.PHONY : MaxIns.o
+
+# target to build an object file
+MaxIns.cpp.o:
+	cd /home/ubuntu/lqc/CPPM-MC/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/MaxIns.cpp.o
+.PHONY : MaxIns.cpp.o
+
+MaxIns.i: MaxIns.cpp.i
+
+.PHONY : MaxIns.i
+
+# target to preprocess a source file
+MaxIns.cpp.i:
+	cd /home/ubuntu/lqc/CPPM-MC/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/MaxIns.cpp.i
+.PHONY : MaxIns.cpp.i
+
+MaxIns.s: MaxIns.cpp.s
+
+.PHONY : MaxIns.s
+
+# target to generate assembly for a file
+MaxIns.cpp.s:
+	cd /home/ubuntu/lqc/CPPM-MC/build && $(MAKE) -f src/CMakeFiles/programer.dir/build.make src/CMakeFiles/programer.dir/MaxIns.cpp.s
+.PHONY : MaxIns.cpp.s
+
 frame/graph.o: frame/graph.cpp.o
 
 .PHONY : frame/graph.o
@@ -245,6 +272,9 @@ help:
 	@echo "... CPPM-MC.o"
 	@echo "... CPPM-MC.i"
 	@echo "... CPPM-MC.s"
+	@echo "... MaxIns.o"
+	@echo "... MaxIns.i"
+	@echo "... MaxIns.s"
 	@echo "... frame/graph.o"
 	@echo "... frame/graph.i"
 	@echo "... frame/graph.s"

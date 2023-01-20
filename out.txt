@@ -1,0 +1,42 @@
+说明：dataNum表示实例的数目，PI表示参与度阈值，d表示距离阈值，time表示运行时间(单位：ms)
+如果前面带有with maximal clique，表示将极大团枚举时间计算在内，否则没有计算在内
+带有No pourn表示使用了传统的参与度计算方法，并删除了相应的剪枝优化
+
+
+
+dataNum:40161 --PI:0.100000--d:10-- time:8810
+dataNum:40161 --PI:0.300000--d:10-- time:7858
+dataNum:40161 --PI:0.500000--d:10-- time:7972
+dataNum:40161 --PI:0.700000--d:10-- time:7910
+dataNum:40161 --PI:0.900000--d:10-- time:7671
+dataNum:99805 --PI:0.300000--d:10-- time:28747
+dataNum:99805 --PI:0.100000--d:10-- time:22563
+dataNum:99805 --PI:0.500000--d:10-- time:24454
+dataNum:99805 --PI:0.700000--d:10-- time:26562
+dataNum:99805 --PI:0.900000--d:10-- time:25481
+dataNum:149862 --PI:0.500000--d:10-- time:647803
+
+with maximal clique || dataNum:40161 --PI:0.500000--d:10-- time:110879
+with maximal clique || dataNum:99805 --PI:0.500000--d:10-- time:951174
+with maximal clique || dataNum:40161 --PI:0.500000--d:5-- time:57621
+with maximal clique || dataNum:40161 --PI:0.500000--d:15-- time:853063
+with maximal clique || dataNum:40161 --PI:0.500000--d:20-- time:3969251
+with maximal clique || dataNum:40161 --PI:0.100000--d:10-- time:110785
+with maximal clique || dataNum:40161 --PI:0.300000--d:10-- time:113138
+
+No pourn|| dataNum:40161 --PI:0.500000--d:10-- time:29207
+No pourn|| dataNum:99805 --PI:0.500000--d:10-- time:116504
+No pourn|| dataNum:149862 --PI:0.500000--d:10-- time:662195
+dataNum:149862 --PI:0.300000--d:10-- time:148500
+dataNum:149862 --PI:0.100000--d:10-- time:107983
+dataNum:149862 --PI:0.500000--d:10-- time:118908
+
+
+shenZhen with maximal cliques|| dataNum:62292 --PI:0.500000--d:70-- time:113698
+shenZhen with maximal cliques|| dataNum:62292 --PI:0.500000--d:80-- time:167481
+shenZhen with maximal cliques|| dataNum:62292 --PI:0.500000--d:90-- time:209531
+shenZhen with maximal cliques|| dataNum:62292 --PI:0.500000--d:100-- time:307153
+shenZhen with maximal cliques|| dataNum:62292 --PI:0.300000--d:70-- time:115032
+shenZhen with maximal cliques|| dataNum:62292 --PI:0.700000--d:70-- time:105290
+shenZhen with maximal cliques|| dataNum:62292 --PI:0.900000--d:70-- time:108588
+shenZhen with maximal cliques|| dataNum:62292 --PI:0.500000--d:110-- time:755850

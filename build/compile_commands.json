@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/ubuntu/lqc/CPPM-MC/build/src",
+  "command": "/usr/bin/c++   -I/home/ubuntu/lqc/CPPM-MC/include -I/home/ubuntu/lqc/CPPM-MC/include/framelib -I/home/ubuntu/lqc/CPPM-MC/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/MaxIns.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/MaxIns.cpp",
+  "file": "/home/ubuntu/lqc/CPPM-MC/src/MaxIns.cpp"
+},
+{
+  "directory": "/home/ubuntu/lqc/CPPM-MC/build/src",
   "command": "/usr/bin/c++   -I/home/ubuntu/lqc/CPPM-MC/include -I/home/ubuntu/lqc/CPPM-MC/include/framelib -I/home/ubuntu/lqc/CPPM-MC/include/algorithmlib  -g -g   -o CMakeFiles/programer.dir/main.cpp.o -c /home/ubuntu/lqc/CPPM-MC/src/main.cpp",
   "file": "/home/ubuntu/lqc/CPPM-MC/src/main.cpp"
 },
