@@ -1,6 +1,8 @@
 说明：dataNum表示实例的数目，PI表示参与度阈值，d表示距离阈值，time表示运行时间(单位：ms)
 如果前面带有with maximal clique，表示将极大团枚举时间计算在内，否则没有计算在内
 带有No pourn表示使用了传统的参与度计算方法，并删除了相应的剪枝优化
+启动程序的话，在bin目录下输入命令行：./programer 参与度阈值 距离阈值 边界大小 数据集名字
+例如:./programer 0.5 70 50000 Shenzhen.txt
 
 
 

@@ -131,7 +131,8 @@ unordered_map<string, double> _pre; //每个特征需要达到的最小数量
 //主算法程序
 void CPPM::algorithm(){
     unique_ptr<Time> t(new Time()); //开始计时的位置，跳过移动这行函数来计算开始计时的位置
-    vector< vector<Node*> > maxCliques = bronKerbosch();
+    // vector< vector<Node*> > maxCliques = bronKerbosch();
+    vector< vector<Node*> > maxCliques = getMaximalCliques(); //数据量小时推荐使用getMaximalCliques函数，数据量大时候使用上一行的bronKerbosch()算法。
     //将极大团加入表实例中
     for(int i = 0; i < maxCliques.size(); i++){
         vector<Node*>& clique = maxCliques[i];
